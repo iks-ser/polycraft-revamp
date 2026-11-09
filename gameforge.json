@@ -1,0 +1,96 @@
+{
+  "name": "polycraft-reborn",
+  "created": "2026-11-09T17:28:29",
+  "assets": [
+    {
+      "name": "deciduous_tree",
+      "kind": "model",
+      "files": [
+        "assets/models/deciduous_tree.glb",
+        "assets/models/deciduous_tree_views.png",
+        "assets/models/deciduous_tree_turntable.gif"
+      ],
+      "recipe": {
+        "tool": "forge_model3d",
+        "source": "procedural",
+        "kind": "tree",
+        "seed": 42,
+        "animations": []
+      },
+      "created": "2026-11-09T17:28:29",
+      "license": "CC0-1.0 (procedurally generated)"
+    },
+    {
+      "name": "pine_tree",
+      "kind": "model",
+      "files": [
+        "assets/models/pine_tree.glb",
+        "assets/models/pine_tree_views.png",
+        "assets/models/pine_tree_turntable.gif"
+      ],
+      "recipe": {
+        "tool": "forge_model3d",
+        "source": "procedural",
+        "kind": "pine",
+        "seed": 101,
+        "animations": []
+      },
+      "created": "2026-11-09T17:28:30",
+      "license": "CC0-1.0 (procedurally generated)"
+    },
+    {
+      "name": "bush_mushroom",
+      "kind": "model",
+      "files": [
+        "assets/models/bush_mushroom.glb",
+        "assets/models/bush_mushroom_views.png",
+        "assets/models/bush_mushroom_turntable.gif"
+      ],
+      "recipe": {
+        "tool": "forge_model3d",
+        "source": "procedural",
+        "kind": "mushroom",
+        "seed": 202,
+        "animations": []
+      },
+      "created": "2026-11-09T17:28:30",
+      "license": "CC0-1.0 (procedurally generated)"
+    },
+    {
+      "name": "rock_large",
+      "kind": "model",
+      "files": [
+        "assets/models/rock_large.glb",
+        "assets/models/rock_large_views.png",
+        "assets/models/rock_large_turntable.gif"
+      ],
+      "recipe": {
+        "tool": "forge_model3d",
+        "source": "procedural",
+        "kind": "rock",
+        "seed": 303,
+        "animations": []
+      },
+      "created": "2026-11-09T17:28:31",
+      "license": "CC0-1.0 (procedurally generated)"
+    },
+    {
+      "name": "cloud_puff",
+      "kind": "model",
+      "files": [
+        "assets/models/cloud_puff.glb",
+        "assets/models/cloud_puff_views.png",
+        "assets/models/cloud_puff_turntable.gif"
+      ],
+      "recipe": {
+        "tool": "forge_model3d",
+        "source": "procedural",
+        "kind": "cloud",
+        "seed": 505,
+        "animations": []
+      },
+      "created": "2026-11-09T17:34:46",
+      "license": "CC0-1.0 (procedurally generated)"
+    }
+  ]
+}

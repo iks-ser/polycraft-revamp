@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cworldgen0001"]
+
+[ext_resource type="Script" uid="uid://byhhidvhtgmpj" path="res://scripts/world.gd" id="1_world"]
+[ext_resource type="PackedScene" uid="uid://cplayer0001" path="res://scenes/player.tscn" id="2_player"]
+
+[node name="World" type="Node3D" unique_id=1603270733]
+script = ExtResource("1_world")
+
+[node name="Player" parent="." unique_id=838572299 instance=ExtResource("2_player")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 64, 30, 64)
